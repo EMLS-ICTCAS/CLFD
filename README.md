@@ -1,2 +1,2 @@
-# CLFD
-Official code for "Continual Learning in the Frequency Domain" (NeurIPS 2024)
+# Continual Learning in the Frequency Domain
+
