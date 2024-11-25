@@ -1,6 +1,6 @@
 # Continual Learning in the Frequency Domain
 
-The official repository for NeurIPS'24 paper "Continual Learning in the Frequency Domain". We extended the original repo [DER++](https://papers.nips.cc/paper/2020/hash/b704ea2c39778f07c617f6b7ce480e9e-Abstract.html) with our method.
+The official repository for [NeurIPS'24 paper](https://arxiv.org/abs/2410.06645) "Continual Learning in the Frequency Domain". We extended the original repo [DER++](https://papers.nips.cc/paper/2020/hash/b704ea2c39778f07c617f6b7ce480e9e-Abstract.html) with our method.
 ## Setup
 
 + Use argument `--load_best_args` to use the best hyperparameters from the paper.
