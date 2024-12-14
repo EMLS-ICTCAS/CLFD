@@ -5,7 +5,7 @@ The official repository for [NeurIPS'24 paper](https://arxiv.org/abs/2410.06645)
 We employ the Discrete Wavelet Transform (DWT) to map the original image into the frequency domain and selectively utilize frequency domain features. The framework process is outlined as follows:
 ![diagram](images/method.jpg)
 Our framework can improve the accuracy of state-of-the-art (SOTA) continual learning methods by up to 6.83% and reduce training time by 2.6×. The main experimental results are as follows:
-![diagram](images/result2.png)
+![diagram](images/result2.jpg)
 ![diagram](images/result1.jpg)
 
 ## Setup
