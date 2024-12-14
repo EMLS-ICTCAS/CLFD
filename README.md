@@ -1,6 +1,13 @@
 # Continual Learning in the Frequency Domain
 
-The official repository for [NeurIPS'24 paper](https://arxiv.org/abs/2410.06645) "Continual Learning in the Frequency Domain". We extended the original repo [DER++](https://papers.nips.cc/paper/2020/hash/b704ea2c39778f07c617f6b7ce480e9e-Abstract.html) with our method.
+The official repository for [NeurIPS'24 paper](https://arxiv.org/abs/2410.06645) "Continual Learning in the Frequency Domain".
+
+We employ the Discrete Wavelet Transform (DWT) to map the original image into the frequency domain and selectively utilize frequency domain features. The framework process is outlined as follows:
+![diagram](images/method.jpg)
+Our framework can improve the accuracy of state-of-the-art (SOTA) continual learning methods by up to 6.83% and reduce training time by 2.6×. The main experimental results are as follows:
+![diagram](images/result2.png)
+![diagram](images/result1.jpg)
+
 ## Setup
 
 + Use argument `--load_best_args` to use the best hyperparameters from the paper.
@@ -15,3 +22,17 @@ The official repository for [NeurIPS'24 paper](https://arxiv.org/abs/2410.06645)
 - For example, for dataset Seq-CIFAR10, run \
     `python utils/main.py --dataset seq-cifar10 --model er_clfd --buffer_size 50 --load_best_args`
   
+## Acknowledgements :
+We extended the original repo [DER++](https://papers.nips.cc/paper/2020/hash/b704ea2c39778f07c617f6b7ce480e9e-Abstract.html) with our method.
+We extend our gratitude to the authors for their support and for providing the research community with the Mammoth framework.
+
+## Citing this work :
+If you find the project helpful, please consider citing our paper:
+```bibtex
+@article{liu2024continual,
+  title={Continual Learning in the Frequency Domain},
+  author={Liu, Ruiqi and Diao, Boyu and Huang, Libo and An, Zijia and An, Zhulin and Xu, Yongjun},
+  journal={arXiv preprint arXiv:2410.06645},
+  year={2024}
+}
+```
