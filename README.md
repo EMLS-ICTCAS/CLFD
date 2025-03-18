@@ -33,11 +33,11 @@ Our framework can improve the accuracy of state-of-the-art (SOTA) continual lear
 - For example, for dataset Seq-CIFAR10, run \
     `python utils/main.py --dataset seq-cifar10 --model er_clfd --buffer_size 50 --load_best_args`
   
-## Acknowledgements :
+## Acknowledgements
 We extended the original repo [DER++](https://papers.nips.cc/paper/2020/hash/b704ea2c39778f07c617f6b7ce480e9e-Abstract.html) with our method.
 We extend our gratitude to the authors for their support and for providing the research community with the Mammoth framework.
 
-## Citing this work :
+## Citing this work
 If you find the project helpful, please consider citing our paper:
 ```bibtex
 @article{liu2024continual,
