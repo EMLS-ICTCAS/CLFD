@@ -1,9 +1,15 @@
 # Continual Learning in the Frequency Domain
 
+[![Paper](https://img.shields.io/badge/Paper-Arvix%20Link-green)](https://arxiv.org/abs/2410.06645)
+
 The official repository for [NeurIPS'24 paper](https://arxiv.org/abs/2410.06645) "Continual Learning in the Frequency Domain".
 
+###  Overview
+
 We employ the Discrete Wavelet Transform (DWT) to map the original image into the frequency domain and selectively utilize frequency domain features. The framework process is outlined as follows:
-![diagram](images/method.jpg)
+
+<img src="images/method.jpg" alt="diagram" width="500" />
+
 Our framework can improve the accuracy of state-of-the-art (SOTA) continual learning methods by up to 6.83% and reduce training time by 2.6×. The main experimental results are as follows:
 ![diagram](images/result2.jpg)
 ![diagram](images/result1.jpg)
@@ -30,9 +36,11 @@ We extend our gratitude to the authors for their support and for providing the r
 If you find the project helpful, please consider citing our paper:
 ```bibtex
 @article{liu2024continual,
-  title={Continual Learning in the Frequency Domain},
-  author={Liu, Ruiqi and Diao, Boyu and Huang, Libo and An, Zijia and An, Zhulin and Xu, Yongjun},
-  journal={arXiv preprint arXiv:2410.06645},
+  title={Continual learning in the frequency domain},
+  author={Liu, RuiQi and Diao, Boyu and Huang, Libo and An, Zijia and An, Zhulin and Xu, Yongjun},
+  journal={Advances in Neural Information Processing Systems},
+  volume={37},
+  pages={85389--85411},
   year={2024}
 }
 ```
