@@ -7,12 +7,17 @@ The official repository for [NeurIPS'24 paper](https://arxiv.org/abs/2410.06645)
 ###  Overview
 
 We employ the Discrete Wavelet Transform (DWT) to map the original image into the frequency domain and selectively utilize frequency domain features. The framework process is outlined as follows:
-
+<div align="center">
 <img src="images/method.jpg" alt="diagram" width="500" />
-
+</div>
 Our framework can improve the accuracy of state-of-the-art (SOTA) continual learning methods by up to 6.83% and reduce training time by 2.6×. The main experimental results are as follows:
-![diagram](images/result2.jpg)
-![diagram](images/result1.jpg)
+
+<div align="center">
+<img src="images/result2.jpg" alt="diagram" width="400" />
+</div>
+<div align="center">
+<img src="images/result1.jpg" alt="diagram" width="250" />
+</div>
 
 ## Setup
 
@@ -20,7 +25,7 @@ Our framework can improve the accuracy of state-of-the-art (SOTA) continual lear
 + New models can be added to the `models/` folder.
 + New datasets can be added to the `datasets/` folder.
 
-## How to run CLFD?
+### 🚀Quick Start
 - Use `./utils/main.py` to run experiments.
 - To reproduce the results in the paper run the following  
 
